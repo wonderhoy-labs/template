@@ -1,6 +1,6 @@
 import { greet } from "@wonderhoy-labs/template";
 import { brand } from "../brand";
-import { AppBar, Footer } from "./Brand";
+import { AppBar } from "./Brand";
 
 export function App() {
 	return (
@@ -12,12 +12,11 @@ export function App() {
 				<mdui-card variant="filled" className="hero-card">
 					<mdui-icon-rocket-launch />
 					<span>
-						Replace this page with your app. The colours, the bar above and the footer below come from the
-						"wonderhoy" block in package.json. Add the project's logo yourself; agents never make one.
+						Replace this page with your app. The colours and the bar above come from the "wonderhoy" block
+						in package.json. Add the project's logo yourself; agents never make one.
 					</span>
 				</mdui-card>
 			</main>
-			<Footer />
 		</div>
 	);
 }

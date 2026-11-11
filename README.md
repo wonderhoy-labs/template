@@ -31,7 +31,7 @@ Keep the parts your project needs and delete the rest.
    tagline, the character, their unit and their image colour from [Sekaipedia](https://www.sekaipedia.org).
 3. Rename `template` to the id everywhere: the Android namespace and its folders, the crate, the web package,
    `TEMPLATE_` in the signing variables, and the `title` in `.github/workflows/ci.yml`.
-4. Run `pnpm install` and `pnpm theme`. The colours, the header and the footer follow.
+4. Run `pnpm install` and `pnpm theme`. The colours and the header follow.
 5. Delete what the project doesn't have (`android/`, `web/`, `crates/`) and its jobs in `ci.yml`.
 6. Add the project's logo as `docs/logo.webp`, and its launcher icon and favicon.
 7. Rewrite this README and `AGENTS.md` for the project. `pnpm unify` says what's still missing.

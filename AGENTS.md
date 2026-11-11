@@ -17,8 +17,8 @@ repository in the same change (the list is in the skill, under "Changing the gui
 
 | Path                                    | What                                                                     |
 | --------------------------------------- | ------------------------------------------------------------------------ |
-| `android/`                              | A one-screen Compose app with the shared `BrandHeader` and `BrandFooter` |
-| `web/`                                  | A one-page React and mdui app with the shared `AppBar` and `Footer`      |
+| `android/`                              | A one-screen Compose app with the shared `BrandHeader`                  |
+| `web/`                                  | A one-page React and mdui app with the shared `AppBar`                   |
 | `packages/template/`                    | The library, `@wonderhoy-labs/template`, which the web app uses          |
 | `crates/template/`                      | A command-line tool that prints its version                              |
 | `tools/theme.ts`                        | Makes the colour scheme from `package.json`                              |
