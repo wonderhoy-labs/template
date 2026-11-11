@@ -12,8 +12,8 @@ export function App() {
 				<mdui-card variant="filled" className="hero-card">
 					<mdui-icon-rocket-launch />
 					<span>
-						Replace this page with your app. The colours and the bar above come from the
-						"wonderhoy" block in package.json. Add the project's logo yourself; agents never make one.
+						Replace this page with your app. The colours and the bar above come from the "wonderhoy" block
+						in package.json. Add the project's logo yourself; agents never make one.
 					</span>
 				</mdui-card>
 			</main>
